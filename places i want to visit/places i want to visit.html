@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script language="JavaScript"> 
+		function writeText(txt) {
+			document.getElementById("PlaceName").innerHTML=txt;
+		}
+
+		function dissolveText(txt) {
+			document.getElementById("PlaceName").innerHTML=txt;
+
+		}
+	</script>
+  <link href="places i want to visit.css" rel="stylesheet" />
+  <link rel = "icon" href ="..\images\esig.png">
+  <title>Dream Tour</title>
+
+</head>
+
+  <body>
+    <ul id="top" class="bar">
+    <li class="bar"><a href="../landing page/landing page.html">Home</a></li>
+    <li class="bar"><a href="../resume/resume.html">Resume</a></li>
+    <li class="bar"><a href="../about me/about me.html">About Me</a></li>
+    <li class="bar"><a href="../skills/skills.html">Skills</a></li>
+	<li class="bar"><a href="../photo gallery/photo gallery.html">Photo Gallery</a></li>
+	<li class="bar"><a href="../my beat/my beat.html">Music</a></li>
+	<li class="bar"><a href="../my kind of tvshows/my kind of tvshows.html">TV Shows</a></li>
+	<li class="bar"><a href="../my kind of film/my kind of film.html">Movies</a></li>
+	<li class="bar"><a href="../places i want to visit/places i want to visit.html">Dream Tour</a></li>
+	<li class="bar"><a href="../bucket list/bucket list.html">Bucket List</a></li>
+	
+  </ul>
+  
+  <section>
+    <div class="titleMap">Places that I want <br>to go to.</div>
+    <div class="cta">
+      <div class="start-trial"><a href="#map" style="text-decoration:none;color:white;font-family:Verdana;">See the Map</a></div>
+    </div>	
+</section>
+<div id="map" class="container">
+<div class="title">
+<h1 id="PlaceName">Places I want to visit.</h1>
+
+</div>
+</div>
+<br>
+<br>
+<img src="../images/map edited.png" class="center" usemap="#image-map">
+<map name="image-map">
+    <area alt="New York, USA" title="New York, USA"  href="newyork.html" coords="103,231,142,241,147,301,142,361,98,371,55,352,53,308,60,240" shape="poly" onMouseOver="writeText('New York, USA');" onMouseOut="dissolveText('Places I want to visit.');"/>
+    <area target="" alt="Rome, Italy" title="Rome, Italy" href="rome.html" coords="373,171,425,176,431,224,425,260,379,270,324,262,312,222,324,175" shape="poly" onMouseOver="writeText('Rome, Italy');" onMouseOut="dissolveText('Places I want to visit.');"/>
+    <area target="" alt="Paris, France" title="Paris, France" href="paris.html" coords="439,27,489,65,491,115,442,122,395,119,388,82,412,42" shape="poly" onMouseOver="writeText('Paris, France');" onMouseOut="dissolveText('Places I want to visit.');"/>
+    <area target="" alt="Dubai, United Arab Emirates" title="Dubai, United Arab Emirates" href="dubai.html" coords="673,325,705,338,704,441,673,451,642,442,643,408,644,344" shape="poly" onMouseOver="writeText('Dubai, United Arab Emirates');" onMouseOut="dissolveText('Places I want to visit.');"/>
+    <area target="" alt="Tokyo, Japan" title="Tokyo, Japan" href="japan.html" coords="756,375,792,384,802,433,795,478,760,484,712,474,711,433,715,383" shape="poly" onMouseOver="writeText('Tokyo, Japan');" onMouseOut="dissolveText('Places I want to visit.');"/>
+</map>
+<br>
+		<div class = "NavButton">
+	
+	  <ul>
+		<li><a href ="#top">Back to Top</a></li>
+	  </ul>
+	  </div>
+</body>
+
+<br>
+<br>
+<br>
+<footer>
+
+  <h3 style="font-family:Arial;color:white;padding-top:14px;margin-left:10vw">© James Jose Dolar 2023 ITAD</h3>
+</footer>
+</html>

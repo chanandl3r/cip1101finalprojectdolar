@@ -1,0 +1,104 @@
+body {
+  font-family:Lora,Verdana,Sans-serif;
+	background-color:#dee1e1;
+}
+  h1{
+    font-size:3em;
+    font-family:"Georgia";
+    text-align:center;
+  }
+  
+  h2{
+    font-family:"Georgia";
+    font-size:;text-align:center;
+  }
+  
+  h3{
+    font-family:"Georgia";
+    font-size:;text-align:center;
+  }
+  
+  hr{
+    width="100%";
+    size="1";
+    color="black";
+    align="center";
+  }
+
+  body{
+    font-family:Lora,Verdana,Sans-serif;
+  }
+.container {
+	max-width: 1100px;
+	margin: auto;
+	font-family:Lora,Verdana,Sans-serif;
+}
+
+.title {
+	text-align: justify;
+	padding: 20px;
+	background-color: white;
+	border: 2px solid;
+}
+.NavButton
+{
+	max-width: 300px;
+	margin: auto;
+		
+	background-color: #FAE6FA;
+	background-attachment: fixed;
+	text-align: center;
+}
+.NavButtonTop
+{
+	max-width: 500px;
+	margin: auto;
+		
+	background-color: #FAE6FA;
+	background-attachment: fixed;
+	text-align: center;
+}
+p.surprise {
+    font-size:6em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:Georgia;
+    text-align:center;
+}	
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+ font-weight:bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  width: 100vw;
+  background-color: #666;
+  bottom: 10px;
+  height:50px;
+  margin-top:100px;
+}
+
+h3.footerText {
+  color: darkgray;
+  margin-left: 10vw;
+  }

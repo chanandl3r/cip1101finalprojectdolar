@@ -1,0 +1,185 @@
+body {
+  font-family:Lora,Verdana,Sans-serif;
+	background-color:#dee1e1;
+}
+p.BeatsTop {
+    font-size:6em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:Georgia;
+    text-align:center;
+	margin-bottom:2px;
+
+}
+
+p.Beats {
+    font-size:6em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:Georgia;
+    text-align:center;
+	margin-bottom:2px;
+	margin-top:0px;
+}
+h1, h2 {
+  font-family: times-new-roman, Georgia, Baskerville, serif;
+  font-size: 30px;
+  text-align: center;
+}
+.NavButton
+{
+	max-width: 565px;
+	margin: auto;
+		
+	background-color: #666;
+	background-attachment: fixed;
+	text-align: center;
+}
+.NavButtonTop
+{
+	max-width: 560px;
+	margin: auto;
+		
+	background-color: #FAE6FA;
+	background-attachment: fixed;
+	text-align: center;
+}
+ul {
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #666;
+}
+
+li {
+  float: left;
+}
+.musicTitle{
+	font-family:Georgia;
+	font-size:2em;
+	text-align:center;
+	margin:8px;
+}
+.musicArtist{
+	font-family:Georgia;
+	font-size:1em;
+	font-style:italic;
+	text-align:center;
+}
+.music{
+	width:300px; 
+	margin:auto; 
+	position:relative;
+}  
+
+	.profile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile img{
+            margin-right: 50px;
+        }
+        .profile ul{
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        }
+        .profile li{
+            margin-bottom: 10px;
+        }
+
+        .player-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 20px;
+        }
+
+        .player {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .player audio {
+            margin-top: 10px;
+        }
+
+        .player h2 {
+            margin-top: 10px;
+            text-align: center;
+        }
+       #content {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 10px #ccc;
+        }
+h1, h2 {
+  font-family: times-new-roman, Georgia, Baskerville, serif;
+  font-size: 30px;
+
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  font-family: Verdana, Tahoma, Futura, Sans-serif;
+}
+
+
+
+.title, .buttons {
+  text-align: center;
+  padding: 20px;
+  background-color:white;
+}
+
+
+
+img:hover {
+  opacity: 0.8;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+ul.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li.bar{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+   font-weight:bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+footer {
+  width: 100vw;
+  background-color: #666;
+  bottom: 10px;
+  height:50px;
+  margin-top:100px;
+}
+
+h3.footerText {
+  color: darkgray;
+  margin-left: 10vw;
+  }

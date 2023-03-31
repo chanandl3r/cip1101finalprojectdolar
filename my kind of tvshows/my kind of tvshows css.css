@@ -1,0 +1,141 @@
+body {
+  font-family:Lora,Verdana,Sans-serif;
+	background-color:#dee1e1;
+}
+p.Entertainment {
+    font-size:6em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:Georgia;
+    text-align:center;
+	margin-bottom:2px;
+}
+.NavButton
+{
+	max-width: 285px;
+	margin: auto;
+		
+	background-color: #666;
+	background-attachment: fixed;
+	text-align: center;
+}
+.NavButtonTop
+{
+	max-width: 422px;
+	margin: auto;
+		
+	background-color: #FAE6FA;
+	background-attachment: fixed;
+	text-align: center;
+}
+.description{
+	font-family:Verdana;
+	font-size:1em;
+	text-align:Justify;
+	margin-bottom:0px;
+}
+ul {
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #666;
+}
+
+li {
+  float: left;
+}
+
+.videoTitle{
+	font-family:Georgia;
+	font-size:2em;
+	text-align:center;
+	margin:8px;
+}
+.videoArtist{
+	font-family:Georgia;
+	font-size:1em;
+	font-style:italic;
+	text-align:center;
+	margin-bottom:0px;
+	padding:0px;
+}
+.video{
+	width:800px; 
+	margin:auto; 
+	position:center;
+	margin-top:0px;
+}  
+h1, h2 {
+  font-family: Georgia, Baskerville, serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding:10px;
+  font-family: Verdana, Tahoma, Futura, Sans-serif;
+}
+.title, .buttons {
+  text-align: center;
+  padding: 20px;
+  background-color:white;
+}
+.divFirstButton
+{
+	max-width: 577px;
+	margin: auto;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+
+
+img:hover {
+  opacity: 0.8;
+}
+
+
+li a:hover {
+  background-color: #FFF7FF;
+}
+
+ul.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+}
+
+li.bar{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+   font-weight:bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer {
+  width: 100vw;
+  background-color: #666;
+  bottom: 10px;
+  height:50px;
+  margin-top:100px;
+}
+
+h3.footerText {
+  color: darkgray;
+  margin-left: 10vw;
+  }
